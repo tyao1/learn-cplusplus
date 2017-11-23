@@ -1,0 +1,6 @@
+{
+  "name": "bot",
+  "dependencies": {
+    "gabime/spdlog": "0.13.0"
+  }
+}
