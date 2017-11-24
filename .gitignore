@@ -6,3 +6,5 @@ buckaroo
 buckaroo-stacktrace.log
 core*
 *.txt
+extern
+.watchmanconfig

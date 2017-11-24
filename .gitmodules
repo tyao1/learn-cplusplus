@@ -28,63 +28,21 @@
 [submodule "boost/predef"]
 	path = boost/predef
 	url = https://github.com/boostorg/predef.git
-[submodule "boost/date_time"]
-	path = boost/date_time
-	url = https://github.com/boostorg/date_time.git
 [submodule "boost/mpl"]
 	path = boost/mpl
 	url = https://github.com/boostorg/mpl.git
-[submodule "boost/preprocessor"]
-	path = boost/preprocessor
-	url = https://github.com/boostorg/preprocessor.git
 [submodule "boost/type_traits"]
 	path = boost/type_traits
 	url = https://github.com/boostorg/type_traits.git
-[submodule "boost/smart_ptr"]
-	path = boost/smart_ptr
-	url = https://github.com/boostorg/smart_ptr.git
-[submodule "boost/io"]
-	path = boost/io
-	url = https://github.com/boostorg/io.git
-[submodule "boost/algorithm"]
-	path = boost/algorithm
-	url = https://github.com/boostorg/algorithm.git
-[submodule "boost/range"]
-	path = boost/range
-	url = https://github.com/boostorg/range.git
-[submodule "boost/iterator"]
-	path = boost/iterator
-	url = https://github.com/boostorg/iterator.git
-[submodule "boost/detail"]
-	path = boost/detail
-	url = https://github.com/boostorg/detail.git
-[submodule "boost/concept_check"]
-	path = boost/concept_check
-	url = https://github.com/boostorg/concept_check.git
-[submodule "boost/lexical_cast"]
-	path = boost/lexical_cast
-	url = https://github.com/boostorg/lexical_cast.git
-[submodule "boost/numeric_conversion"]
-	path = boost/numeric_conversion
-	url = https://github.com/boostorg/numeric_conversion.git
-[submodule "boost/functional"]
-	path = boost/functional
-	url = https://github.com/boostorg/functional.git
-[submodule "boost/integer"]
-	path = boost/integer
-	url = https://github.com/boostorg/integer.git
-[submodule "boost/array"]
-	path = boost/array
-	url = https://github.com/boostorg/array.git
-[submodule "boost/container"]
-	path = boost/container
-	url = https://github.com/boostorg/container.git
+[submodule "boost/intrusive"]
+	path = boost/intrusive
+	url = https://github.com/boostorg/intrusive.git
 [submodule "boost/move"]
 	path = boost/move
 	url = https://github.com/boostorg/move.git
-[submodule "boost/math"]
-	path = boost/math
-	url = https://github.com/boostorg/math.git
-[submodule "boost/endian"]
-	path = boost/endian
-	url = https://github.com/boostorg/endian.git
+[submodule "boost/optional"]
+	path = boost/optional
+	url = https://github.com/boostorg/optional.git
+[submodule "boost/smart_ptr"]
+	path = boost/smart_ptr
+	url = https://github.com/boostorg/smart_ptr.git
