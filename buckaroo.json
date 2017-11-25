@@ -1,6 +1,7 @@
 {
   "name": "bot",
   "dependencies": {
-    "gabime/spdlog": "0.13.0"
+    "gabime/spdlog": "0.13.0",
+    "nlohmann/json": "2.1.1"
   }
 }

@@ -30,5 +30,33 @@ cxx_binary(
   visibility = ['PUBLIC'],
   linker_flags = [
     '-lpthread',
+    '-lboost_thread',
+    '-lboost_system',
+    '-lssl',
+    '-lcrypto'
   ],
+  compiler_flags = [
+    '-std=c++11',
+    '-lboost_thread',
+  ]
+)
+
+cxx_binary(
+  name = 'asio',
+  srcs = ['bot/apps/asio.cpp'],
+  headers = subdir_glob([
+    # external headers
+    ("extern", "**/*"),
+  ]),
+  deps = [],
+  visibility = ['PUBLIC'],
+  linker_flags = [
+    '-lpthread',
+    '-lboost_thread',
+    '-lboost_system',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+    '-lboost_thread',
+  ]
 )

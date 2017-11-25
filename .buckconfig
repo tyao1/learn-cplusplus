@@ -1,3 +1,3 @@
 [cxx]
-  cxxflags = -std=c++14 -I/home/tianyu/boost_1_66_0
-  ldflags = -L/home/tianyu/boost_1_66_0/stage/lib -lboost_system
+  cxxflags = -I/home/tianyu/boost_1_66_0 -L/home/tianyu/boost_1_66_0/stage/lib
+  ldflags = -L/home/tianyu/boost_1_66_0/stage/lib
