@@ -36,7 +36,7 @@ cxx_binary(
     '-lcrypto'
   ],
   compiler_flags = [
-    '-std=c++11',
+    '-std=c++14',
     '-lboost_thread',
   ]
 )
@@ -58,5 +58,27 @@ cxx_binary(
   compiler_flags = [
     '-std=c++11',
     '-lboost_thread',
+  ]
+)
+
+cxx_binary(
+  name = 'hash',
+  srcs = ['bot/apps/hash.cpp'],
+  headers = subdir_glob([
+    # external headers
+    ("extern", "**/*"),
+  ]),
+  deps = [':bot'],
+  visibility = ['PUBLIC'],
+  linker_flags = [
+    #'-lpthread',
+    #'-lboost_thread',
+    #'-lboost_system',
+    #'-lssl',
+    '-lcrypto'
+  ],
+  compiler_flags = [
+    '-std=c++11',
+    #'-lboost_thread',
   ]
 )
